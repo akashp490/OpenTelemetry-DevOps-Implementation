@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: product-catalog
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: product-catalog
+
+  template:
+    metadata:
+      labels:
+        app: product-catalog
+
+    spec:
+      serviceAccountName: demo-service-account
+
+      containers:
+        - name: product-catalog
+          image: akashp490/product-catalog:latest
+          imagePullPolicy: Always
+
+          ports:
+            - containerPort: 8080

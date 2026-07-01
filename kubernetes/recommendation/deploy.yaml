@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: recommendation
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: recommendation
+
+  template:
+    metadata:
+      labels:
+        app: recommendation
+
+    spec:
+      serviceAccountName: demo-service-account
+
+      containers:
+        - name: recommendation
+          image: akashp490/recommendation:latest
+          imagePullPolicy: Always
+
+          ports:
+            - containerPort: 8080
+
+          env:
+            - name: PRODUCT_CATALOG_ADDR
+              value: "product-catalog:8080"

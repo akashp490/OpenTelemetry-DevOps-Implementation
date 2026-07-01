@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: ad
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: ad
+
+  template:
+    metadata:
+      labels:
+        app: ad
+
+    spec:
+      serviceAccountName: demo-service-account
+
+      containers:
+        - name: ad
+          image: akashp490/ad:latest
+          imagePullPolicy: Always
+
+          ports:
+            - containerPort: 8080
