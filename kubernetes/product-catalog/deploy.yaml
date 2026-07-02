@@ -26,8 +26,6 @@ spec:
 
 
           env:
-          - name: PRODUCT_CATALOG_SERVICE_PORT
-            value: "8080"
 
           - name: OTEL_SERVICE_NAME
             value: product-catalog
