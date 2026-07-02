@@ -316,23 +316,6 @@ Amazon EKS
 
 ---
 
-# 🧠 Challenges Solved
-
-During implementation, several real-world deployment issues were encountered and resolved:
-
-- Configured Terraform Remote State using Amazon S3 and DynamoDB.
-- Provisioned a complete Amazon EKS cluster using modular Terraform.
-- Built and published Docker images through GitHub Actions.
-- Implemented GitOps deployment using Argo CD.
-- Diagnosed Kubernetes CrashLoopBackOff errors.
-- Resolved Kubernetes Service environment variable collisions that conflicted with application environment variables.
-- Fixed Docker image naming inconsistencies across GitHub Actions, Docker Hub and Kubernetes manifests.
-- Debugged ImagePullBackOff issues.
-- Configured Kubernetes Resource Requests and Limits.
-- Successfully migrated from manual Kubernetes deployment to GitOps-based deployment.
-
----
-
 # 👨‍💻 Author
 
 **Akash Patro**
