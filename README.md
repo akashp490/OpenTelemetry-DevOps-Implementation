@@ -245,6 +245,7 @@ Argo CD continuously synchronizes the cluster with the Git repository.
 
 ---
 
+
 # 📷 Project Screenshots
 
 ## GitHub Actions
@@ -289,6 +290,9 @@ Argo CD continuously synchronizes the cluster with the Git repository.
 
 ---
 
+
+
+
 # 📈 CI/CD Pipeline
 
 ```
@@ -326,37 +330,6 @@ During implementation, several real-world deployment issues were encountered and
 - Debugged ImagePullBackOff issues.
 - Configured Kubernetes Resource Requests and Limits.
 - Successfully migrated from manual Kubernetes deployment to GitOps-based deployment.
-
----
-
-# 📚 Key Learnings
-
-Through this project I gained hands-on experience with:
-
-- Infrastructure as Code using Terraform
-- AWS Networking (VPC, Subnets, NAT Gateway, Internet Gateway)
-- Amazon EKS
-- Docker Image Creation
-- Docker Hub
-- Kubernetes Deployments
-- Kubernetes Services
-- GitHub Actions
-- Argo CD
-- GitOps
-- Kubernetes Debugging
-- CI/CD Pipeline Design
-- Cloud Infrastructure Automation
-
----
-
-# 🔮 Future Improvements
-
-- Prometheus Monitoring
-- Grafana Dashboards
-- Helm Charts
-- Horizontal Pod Autoscaler (HPA)
-- Multi-Environment Deployments (Dev / Stage / Prod)
-- Automated Kubernetes Testing
 
 ---
 
