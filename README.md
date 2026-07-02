@@ -249,17 +249,15 @@ Argo CD continuously synchronizes the cluster with the Git repository.
 
 ## GitHub Actions
 
-> Add screenshot here
 
-```
-docs/images/github-actions.png
-```
+![GitHub Actions](docs/images/github-actions-success.png)
+
 
 ---
 
 ## Argo CD
 
-> Add screenshot here
+
 
 ```
 docs/images/argocd.png
@@ -269,7 +267,6 @@ docs/images/argocd.png
 
 ## Kubernetes Pods
 
-> Add screenshot here
 
 ```
 docs/images/kubectl-pods.png
@@ -279,7 +276,7 @@ docs/images/kubectl-pods.png
 
 ## Amazon EKS
 
-> Add screenshot here
+
 
 ```
 docs/images/eks-console.png
@@ -289,7 +286,6 @@ docs/images/eks-console.png
 
 ## Terraform Apply
 
-> Add screenshot here
 
 ```
 docs/images/terraform-apply.png
@@ -372,9 +368,8 @@ Through this project I gained hands-on experience with:
 
 **Akash Patro**
 
-GitHub: https://github.com/akashp490
+LinkedIn: https://www.linkedin.com/in/akashpatro490/
 
-LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
 
