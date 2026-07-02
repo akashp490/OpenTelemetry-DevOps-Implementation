@@ -258,38 +258,34 @@ Argo CD continuously synchronizes the cluster with the Git repository.
 ## Argo CD
 
 
-
-```
-docs/images/argocd.png
-```
+![ArgoCD](docs/images/argocd-dashboard.png)
 
 ---
 
 ## Kubernetes Pods
 
 
-```
-docs/images/kubectl-pods.png
-```
+![Pods](docs/images/kubectl-pods.png)
+
+---
+
+## Kubernetes Nodes
+
+
+![Nodes](docs/images/eks-node.png)
 
 ---
 
 ## Amazon EKS
 
-
-
-```
-docs/images/eks-console.png
-```
+![Eks](docs/images/eks-cluster.png)
 
 ---
 
-## Terraform Apply
+## Terraform Output
 
 
-```
-docs/images/terraform-apply.png
-```
+![Terraform](docs/images/terraform-output.png)
 
 ---
 
