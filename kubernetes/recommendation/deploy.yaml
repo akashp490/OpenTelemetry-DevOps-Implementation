@@ -17,7 +17,7 @@ spec:
         app: recommendation
 
     spec:
-      serviceAccountName: demo-service-account
+      
 
       containers:
         - name: recommendation

@@ -17,7 +17,7 @@ spec:
         app: ad
 
     spec:
-      serviceAccountName: demo-service-account
+      
 
       containers:
         - name: ad
