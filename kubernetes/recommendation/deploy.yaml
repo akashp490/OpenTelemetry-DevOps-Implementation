@@ -18,7 +18,6 @@ spec:
 
     spec:
       
-
       containers:
         - name: recommendation
           image: akashp490/recommendation:latest
@@ -36,5 +35,8 @@ spec:
               memory: "256Mi"  
 
           env:
-            - name: PRODUCT_CATALOG_ADDR
-              value: "product-catalog:8080"
+          - name: OTEL_SERVICE_NAME
+            value: recommendation
+
+          - name: PRODUCT_CATALOG_ADDR
+            value: "product-catalog:8080"
