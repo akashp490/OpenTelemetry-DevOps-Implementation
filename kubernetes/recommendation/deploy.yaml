@@ -39,4 +39,4 @@ spec:
             value: recommendation
 
           - name: PRODUCT_CATALOG_ADDR
-            value: "product-catalog:8080"
+            value: "product-catalog-svc:8080"
