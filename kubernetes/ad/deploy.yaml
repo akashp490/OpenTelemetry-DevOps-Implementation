@@ -21,7 +21,7 @@ spec:
 
       containers:
         - name: ad
-          image: akashp490/ad:latest
+          image: akashp490/adservice:latest
           imagePullPolicy: Always
 
           ports:
