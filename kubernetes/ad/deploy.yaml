@@ -22,8 +22,7 @@ spec:
 
       containers:
         - name: ad
-          image: akashp490/adservice:latest
-          imagePullPolicy: Always
+          image: akashp490/adservice:4a3a6cf
 
           ports:
             - containerPort: 8080
