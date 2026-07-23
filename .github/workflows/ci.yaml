@@ -31,7 +31,6 @@ jobs:
           context: ./src/ad
           push: true
           tags: |
-            akashp490/adservice:latest
             akashp490/adservice:${{ github.sha }}
 
       ##########################################
@@ -44,7 +43,6 @@ jobs:
           context: ./src/product-catalog
           push: true
           tags: |
-            akashp490/product-catalog:latest
             akashp490/product-catalog:${{ github.sha }}
 
       ##########################################
@@ -57,8 +55,7 @@ jobs:
           context: ./src/recommendation
           push: true
           tags: |
-            akashp490/recommendation:latest
-            akashp490/recommendation:${{ github.sha }}
+           akashp490/recommendation:${{ github.sha }}
 
 
              
