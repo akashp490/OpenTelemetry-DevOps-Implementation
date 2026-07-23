@@ -22,7 +22,7 @@ spec:
 
       containers:
         - name: product-catalog
-          image: akashp490/product-catalog:4a3a6cf
+          image: akashp490/product-catalog:b27f76efa7a1e683118c36b48f951ff16a4e0d13
 
 
           env:

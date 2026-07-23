@@ -21,7 +21,7 @@ spec:
       
       containers:
         - name: recommendation
-          image: akashp490/recommendation:4a3a6cf
+          image: akashp490/recommendation:b27f76efa7a1e683118c36b48f951ff16a4e0d13
 
           ports:
             - containerPort: 8080
