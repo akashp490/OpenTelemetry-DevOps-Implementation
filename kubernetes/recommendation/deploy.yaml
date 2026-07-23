@@ -21,8 +21,7 @@ spec:
       
       containers:
         - name: recommendation
-          image: akashp490/recommendation:latest
-          imagePullPolicy: Always
+          image: akashp490/recommendation:4a3a6cf
 
           ports:
             - containerPort: 8080

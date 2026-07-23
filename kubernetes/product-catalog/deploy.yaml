@@ -22,8 +22,7 @@ spec:
 
       containers:
         - name: product-catalog
-          image: akashp490/product-catalog:latest
-          imagePullPolicy: Always
+          image: akashp490/product-catalog:4a3a6cf
 
 
           env:
