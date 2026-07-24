@@ -22,7 +22,7 @@ spec:
 
       containers:
         - name: ad
-          image: akashp490/adservice:b27f76efa7a1e683118c36b48f951ff16a4e0d13
+          image: akashp490/adservice:095fce813645d0c0ed660fb0b64e2e7f960dcd70
 
           ports:
             - containerPort: 8080
